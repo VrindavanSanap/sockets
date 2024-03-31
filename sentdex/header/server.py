@@ -7,7 +7,7 @@ HEADER_SIZE = 10
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 host = "localhost"
-port = 1234
+port = 3000 
 s.bind((host, port))
 
 s.listen(5)
